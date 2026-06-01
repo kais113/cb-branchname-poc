@@ -1,0 +1,6 @@
+steps:
+  - name: 'ubuntu'
+    entrypoint: 'bash'
+    args: ['-c', 'echo "===NOSUB_START==="; echo "static step, no substitution"; echo "===NOSUB_END==="']
+options:
+  logging: CLOUD_LOGGING_ONLY
