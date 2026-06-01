@@ -1,0 +1,8 @@
+steps:
+  - name: 'ubuntu'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - 'echo "===CB_START==="; echo "Building branch: ${BRANCH_NAME}"; echo "===CB_END==="'
+options:
+  logging: CLOUD_LOGGING_ONLY
